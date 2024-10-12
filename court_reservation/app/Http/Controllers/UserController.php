@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    // Get all users (READ)
+    // Get all users (READ) ψηεψκ
     public function index()
     {
         $users = User::all();
